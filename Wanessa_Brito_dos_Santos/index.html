@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1 id="titulo"> Formulário de Dados pessoais </h1>
+    <form action="">
+        <div>
+            <label for="Nome">Digite seu nome:</label>
+            <input type="text" name="nome" id="Nome">
+        </div>
+        <div><p></p>
+            <label for="CPF">Digite seu CPF:</label>
+            <input type="number" name="cpf" id="CPF">
+        </div>
+        <div><p></p>
+            <label for="Email">Digite seu email:</label>
+            <input type="email" name="email" id="Email">
+        </div>
+        <p><div>
+            <label for="Data">Coloque sua Data de Nascimento</label>
+            <input type="date" name="Data" id="Data">
+        </div></p>
+        <p><div>
+            <label for="genero">Coloque seu Genero:</label>
+
+            <p></p><input type="radio" id="Masculino" name="genero" value="masculino">
+            <label for="masculino">Masculino</label><br>
+
+            <p></p><input type="radio" id="Feminino" name="genero" value="feminino">
+            <label for="feminino">Feminino</label><br>
+
+            <p></p><input type="radio" id="Não" name="genero" value="não informar">
+            <label for="não informar">Prefiro não informar</label><br>
+        </div></p>
+        <p></p>
+            <div id="divbotao">
+            <input id="botao" type="reset" value="Limpar Formulário">
+        </div>
+            <div id="divbotao">
+               <input id="botao" type="submit" value="Botão para Enviar">
+            </div>
+        </form>
+</body>
+</html>

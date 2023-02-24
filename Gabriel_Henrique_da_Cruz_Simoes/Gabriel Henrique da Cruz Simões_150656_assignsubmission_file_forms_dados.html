@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Informações</title>
+</head>
+<body>
+    <form action="/cumprimentar">
+        <div>
+            <label for="idNome">Diga o seu nome:</label>
+            <input type="text" name="nome" id="idNome">
+        </div>
+
+        <div>
+            <label for="email">Diga o seu email:</label>
+            <input type="email" name="email" id="idemail">
+        </div>  
+
+        <div>
+            <label for="number">Digite a sua idade</label>
+            <input type="number" name="idade" id="ididade">
+        </div>
+
+        <div>
+            <label for="Times">Escolha seu time do coração:</label>
+            <input list="Time-do-coracao" id="Times" name="Time-do-coracao">
+
+            <datalist id="Time-do-coracao">
+                <option value="Corinthians">
+                <option value="Palmeiras">
+                <option value="Santos">
+                <option value="São Paulo">
+                <option value="Flamengo">
+                <option value="Vasco">
+            </datalist> 
+        </div>
+
+        <div>
+            <label for="Jogador">Digite o nome do seu jogador favorito:</label>
+            <input list="Jogadorfav" id="Jogador" name="Jogadorfav">
+
+            <datalist id="Jogadorfav">
+                <option value="Gabigol">
+                <option value="Roger Guedes">
+                <option value="Arrascaeta">
+                <option value="Dudu">
+                <option value="Luis Suarez">
+                <option value="Pedro">
+            </datalist> 
+        </div>
+
+
+        <input type="submit" value="Botão para enviar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento</title>
+</head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+<body>
+    <h2> Cadastro para show</h2>
+    <div> Escolha o seu cantor favorito e venha com a gente, você terá a melhor experiência da sua vida!!!</div>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-fE5mcEYvBVlg-Wjo9UUMhT9a_qzn-wgvSw&usqp=CAU" alt="show" height="250px" width="450px">
+    <p><p>Preencha o formulário abaixo para a compra antecipada dos ingressos: </p></p>
+    <form>
+        <div>
+            <label for="idEmail">Digite seu email:</label>
+            <input type="email" name="email" id="idEmail" placeholder="Email">
+        </div>
+
+        <div>
+        <label for="idNome">Digite seu nome:</label>
+        <input type="text" name="nome" id="idNome" placeholder="Nome">
+        </div>
+
+        <div>
+        <label for="idData">Data do seu nascimento:</label>
+        <input type="date" name="data" id="idData" placeholder="Data de nascimento">
+        </div>
+        
+        <div> 
+            <label for="idCantor">Escolha um cantor:</label>
+            <select id="idCantor" name="cantores">
+            <option value="#">Selecionar</option>
+            <option value="1">Mario Messito</option>
+            <option value="2">Alex Junior</option>
+            <option value="3">Luan Ronaldo</option>
+            <option value="4">Paula Calleri</option>
+            </select>
+        </div>
+            
+        <div> 
+            <label for="idIngresso">Escolha a quantidadede ingressos: </label>
+            <input type="number" name="ingressos" id="idIngresso" min="0" placeholder="Ingressos desejados">
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar" class="btn btn-danger">
+        </div>
+
+    </form>
+</body>
+</html>

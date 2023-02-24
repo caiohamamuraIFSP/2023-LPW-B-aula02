@@ -1,0 +1,224 @@
+<!-- IFSP | lpw. -->
+<!-- .by. bia & cass -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="iE=edge">
+        <meta name="vielpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="C:\Users\IFSP\Desktop\css">
+        <title>.preguichá.</title>
+    </head>
+
+    <style>
+        * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Comic, Comic, cursive;
+}
+
+body {
+    width: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff6eb;
+}
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px #c4a99d;
+}
+
+.form-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eedfd4;
+    padding: 1rem;
+}
+
+.form-image img {
+    width: 31rem;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff9f7;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+}
+
+.login-button button {
+    border: none;
+    background-color: #cfbeb1;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #fff6eb;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 5rem;
+    color: rgb(131, 67, 38);
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #cfbeb1;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #c4a99d;
+}
+
+.input-box label,
+.stars-title {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #926754;
+}
+
+.stars-num {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 0.5rem;
+}
+
+.stars-input {
+    display: flex;
+    align-items: center;
+}
+
+.stars-input input {
+    margin-right: 0.35rem;
+}
+
+.stars-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+}
+
+.stars-button button { 
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #cfbeb1;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stars-button button a {
+    text-decoration: none;
+    font-weight: 5rem;
+    color: rgb(131, 67, 38);
+}
+    </style>
+
+    <body>
+        <div class="container">
+            <div class="form-image">
+                <img src="https://media.discordapp.net/attachments/1077994289763725335/1078717745107062844/My_project-1.jpg?width=572&height=572">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>.login.</h1>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="user">.user.</label>
+                            <input id="user" type="text" name="usuário" placeholder="ʕ•ᴥ•ʔ" required>
+                            <div class="input-box">
+                                <label for="password">.password.</label>
+                                <input id="password" type="password" name="password" placeholder="🦥"
+                            </div>
+                            <div class="login-button">
+                                <button><a href="#">.enter.</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stars">
+                        <div class="stars-title">
+                            <h6>.avalie-nos.</h6>
+                        </div>
+
+                        <div class="stars-num">
+                            <div class="stars-input">
+                                <input type="radio" id="1star" name="stars">
+                                <label for="1star">⭐️</label>
+
+                                <input type="radio" id="1star" name="stars">
+                                <label for="1star">⭐️⭐️</label>
+
+                                <input type="radio" id="1star" name="stars">
+                                <label for="1star">⭐️⭐️⭐️</label>
+
+                                <input type="radio" id="1star" name="stars">
+                                <label for="1star">⭐️⭐️⭐️⭐️</label>
+
+                                <input type="radio" id="1star" name="stars">
+                                <label for="1star">⭐️⭐️⭐️⭐️⭐️</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stars-button">
+                        <button><a href="#">.thx!.</a></button>
+                </form>
+            </div>
+        </div>
+    </body>
+    
+</html>

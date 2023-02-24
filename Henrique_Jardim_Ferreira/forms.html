@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<span>
+    <div id="divForm1">
+    <div id="titleForm">
+        <h1>REGISTRO</h1>
+    </div>
+        <form class="form"> 
+            <div>
+                <div>
+                    <label for="idTexto">Nome de Usuário:<br></label> 
+                    <input id="txtForm" type="text" name="nome" id="idTexto" placeholder="Nome de Usuário" required> 
+                    <div>
+                        <label for="idEmail">E-mail:<br></label>
+                        <input id="txtForm" type="email" name="email" id="idEmail" placeholder="email@email.com" required="OI"> 
+                    </div>
+                    <div>
+                        <label for="idSenha">Senha:</label>
+                        <input id="txtForm" type="password" name="senha" id="idSenha" placeholder="Senha" required minlength="8">
+                    </div>
+                    <div>
+                        <label for="idNasc">Data de Nascimento:</label>
+                        <input id="txtForm" type="date" name="nascimento" id="idNasc" required>
+                    </div>
+                </div>
+                <div class="sbmBtn">   
+                    <input id="sbmForm" type="reset" value="Limpar Formulário"> 
+                </div>
+                <div class="sbmBtn">
+                    <input id="sbmForm" type="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</span>
+</body>
+</html>

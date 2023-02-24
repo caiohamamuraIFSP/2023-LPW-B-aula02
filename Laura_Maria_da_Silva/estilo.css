@@ -1,0 +1,8 @@
+#titulo-principal{
+    color: blueviolet;
+    text-align: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}

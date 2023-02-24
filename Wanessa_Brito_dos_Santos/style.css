@@ -1,0 +1,27 @@
+#titulo{
+    color: rgb(219, 40, 70);
+    text-align: center;
+}
+#titulo:hover{
+    color: rgb(228, 96, 140);
+}
+body{
+    background-color: rgb(236, 221, 203);
+}
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#botao:hover{
+    background-color: rgb(218, 47, 47);
+}
+#botao{
+    background-color: rgb(226, 154, 193);
+    border-radius: 5px;
+    border-color:black;
+    border-width: 2px;
+}
+#divbotao{
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
